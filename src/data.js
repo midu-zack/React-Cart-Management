@@ -22,65 +22,36 @@ export const products = [
   },
   {
     id: 4,
-    name: 'Convertible Laptop',
-    description: '2-in-1 convertible laptop with touchscreen, Intel i5, 8GB RAM, and 256GB SSD',
-    price: 80000,
-    image: 'https://5.imimg.com/data5/SELLER/Default/2022/12/KI/VX/KM/3707121/dell-latitude-e7390-convertible-laptop-2-in-1-1000x1000.png'
+    name: "Gaming Keyboard",
+    description: "High-performance gaming keyboard with programmable keys and RGB lighting",
+     price: 6000,
+     image: "https://cdn.mos.cms.futurecdn.net/XMDNCcbVWnrYj3zdapKrGb-650-80.jpg.webp"
   },
   {
     id: 5,
-    name: 'Chromebook',
-    description: 'Lightweight Chromebook with long battery life, MediaTek processor, and 64GB eMMC',
-    price: 40000,
-    image: 'https://www.androidpolice.com/wp-content/uploads/2021/07/22/chromebook-5110923.jpg'
+    name: "Compact Keyboard",
+    description: "Compact 60% keyboard with mechanical switches and customizable macros",
+    price: 3500,
+    image: "https://cdn.mos.cms.futurecdn.net/5tMSSCcfLmkVbHX24V48EM-768-80.jpg.webp"
   },
   {
     id: 6,
-    name: 'Gaming Ultrabook',
-    description: 'Slim gaming ultrabook with NVIDIA GTX 1650, 16GB RAM, and 512GB SSD',
-    price: 130000,
-    image: 'https://m.media-amazon.com/images/I/81FPq21iGdL._AC_SL1500_.jpg'
+    name: "Backlit Keyboard",
+    description: "Backlit keyboard with adjustable brightness and quiet keys",
+    price: 2500,
+    image: "https://happycredit.in/cloudinary_opt/blog/backlit-keyboard-tpwzr.webp"
   },
   {
     id: 7,
-    name: 'Budget Laptop',
-    description: 'Affordable laptop with AMD Ryzen 3, 4GB RAM, and 128GB SSD',
-    price: 30000,
-    image: 'https://images-na.ssl-images-amazon.com/images/I/81DyPfU0MuS._AC_SL1500_.jpg'
+    name: "Multimedia Keyboard",
+    description: "Multimedia keyboard with dedicated media controls and volume wheel",
+    price: 4500,
+    image: "https://deskthority.net/wiki/images/4/49/Logitech_Y-RJ20_--_top.jpg"
   },
   {
     id: 8,
-    name: 'Thin & Light Laptop',
-    description: 'Ultra-thin and lightweight laptop with Intel Core M3, 8GB RAM, and 256GB SSD',
-    price: 60000,
-    image: 'https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2021/10/acer-swift-5-thin-light-laptop.jpg'
-  },
-  {
-    id: 9,
-    name: 'Workstation Laptop',
-    description: 'Powerful workstation laptop with Intel Xeon, 32GB RAM, 1TB SSD, and NVIDIA Quadro RTX 4000',
-    price: 200000,
-    image: 'https://images.idgesg.net/images/article/2021/06/best-mobile-workstations-laptops-100878706-large.jpg'
-  },
-  {
-    id: 10,
-    name: 'Student Laptop',
-    description: 'Designed for students with Intel Pentium Gold, 4GB RAM, and 256GB SSD',
-    price: 35000,
-    image: 'https://images-na.ssl-images-amazon.com/images/I/71w3tFmpeQL._AC_SL1500_.jpg'
-  },
-  {
-    id: 11,
-    name: 'Creative Laptop',
-    description: 'For creative professionals with AMD Ryzen 9, 32GB RAM, and 1TB SSD',
-    price: 180000,
-    image: 'https://m.media-amazon.com/images/I/61uL1Q9It7L._AC_SL1000_.jpg'
-  },
-  {
-    id: 12,
-    name: 'Rugged Laptop',
-    description: 'Ruggedized laptop with military-grade durability, Intel Core i7, 16GB RAM, and 512GB SSD',
-    price: 160000,
-    image: 'https://images-na.ssl-images-amazon.com/images/I/71tlTPmc6nL._AC_SL1500_.jpg'
-  }
-];
+    name: "Portable Keyboard",
+    description: "Foldable portable keyboard with wireless connectivity and rechargeable battery",
+    price: 3200,
+    image: "https://images.techhive.com/images/article/2015/04/jorno-sam_0268-2-100577501-large.idge.jpg?auto=webp&quality=85,70"
+  }];
