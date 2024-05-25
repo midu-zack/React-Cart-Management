@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addToCart, changeQuantity } from "../store";
+import { addToCart, changeQuantity } from "../Redux/store";
 import { products } from "../data";
 
 const Home = () => {

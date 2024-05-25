@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { removeFromCart, changeQuantity } from "../store";
+import { removeFromCart, changeQuantity } from "../Redux/store";
 
 const Cart = () => {
   const dispatch = useDispatch();
@@ -18,13 +18,13 @@ const Cart = () => {
     dispatch(changeQuantity({ id: product.id, amount: -1 }));
   };
 
-  const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
-  const distinctProductCount = cart.length;
+  // const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
+  // const distinctProductCount = cart.length;
 
   return (
     <div className="container mx-auto p-4">
       <h2 className="text-2xl mb-4">
-        Cart ({totalItems} items, {distinctProductCount} products)
+        {/* Cart ({totalItems} items, {distinctProductCount} products) */}
       </h2>
       <div>
         {cart.length === 0 ? (
