@@ -1,5 +1,5 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector, useDispatch  } from "react-redux";
 import { addToCart, changeQuantity } from "../Redux/store";
 import { products } from "../data";
 

@@ -1,4 +1,4 @@
-import { createSlice, configureStore } from "@reduxjs/toolkit";
+import { createSlice, configureStore } from "@reduxjs/toolkit";  // slicing functions and configure the  compiling the data
 
 const initialState = {
   cart: [],
